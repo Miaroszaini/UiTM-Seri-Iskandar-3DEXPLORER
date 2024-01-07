@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height;109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #0091a1;
+    font-size: 25px;
+    font-family: arial;
+    padding-left: 20px;
+    float: left;
+    padding-top:12px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{
+    color: #ff7200;
+
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+    padding-top:12px;
+}
+
+.srch{
+    font-family: 'times new roman';
+    color: #DBE9FA;
+    width: 180px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid:#DBE9FA;
+    margin-top: 8px;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 90px;
+    height: 38px;
+    background: #fff;
+    border: 2px solid;
+    margin-top: 6px;
+    color: black;
+    font-size: 12px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+ .btn:focus{
+    outline: none;
+ }
+
+ .content{
+    width:1100px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+ }
+
+ .content .par{
+    padding: 20px;
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+ }
+
+ .content h1{
+    font-family: "times new roman";
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+ }
+
+ .content .cn{
+    width: 150px;
+    height:30px;
+    background: #73afb6;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+
+ .content .cn a{
+    text-decoration: none;
+    color: aquamarine;
+    transition: .3s ease;
+ }
+
+ .cn :hover{
+    background-color: #f4f4f4;
+ }
+ 
